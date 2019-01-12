@@ -652,11 +652,9 @@ $(function() {
             var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
 
             if (leftDay == 0) {
-              leftDayText = "今日";
+              leftDayText = "Today";
             } else if (leftDay == 1) {
-              leftDayText = "明日";
-            } else if (leftDay == 2) {
-              leftDayText = "明後日"
+              leftDayText = "Tomorrow";
             } else {
               leftDayText = leftDay + "日後";
             }
