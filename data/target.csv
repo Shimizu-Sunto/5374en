@@ -1,156 +1,156 @@
 type,name,notice,furigana
 プラスチックごみ,aluminum coated bag,,a
-プラスチックごみ,fan (made of plastic),,f
+プラスチックごみ,artificial flower (made of plastic),Put the paper in burnable garbage.,a
 プラスチックごみ,bag of sweets(Includes a silver bag inside),It is limited to plastic.,b
 プラスチックごみ,bath mat,Cut one side to 50 cm or less.,b
-プラスチックごみ,potty,To remove discard.,p
+プラスチックごみ,basin,It is limited to plastic.,b
+プラスチックごみ,bucket (made of plastic),Remove foreign matter and remove dirt as much as possible.,b
 プラスチックごみ,curtain rail (made of plastic),Cut to about 50 cm.,c
 プラスチックごみ,cup noodles container (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,c
 プラスチックごみ,cup noodles container (made of plastic),Remove foreign matter and remove dirt as much as possible.,c
 プラスチックごみ,cups,Remove foreign matter and remove dirt as much as possible.,c
 プラスチックごみ,cap (made of plastic),Metal caps are resource waste.,c
-プラスチックごみ,photo negative,,p
-プラスチックごみ,shampoo container,Use up the contents and wash the inside.,s
-プラスチックごみ,tablet covering,Put medicine on burnable garbage.,t
 プラスチックごみ,cooking oil container,Use up the contents and wash the inside.,c
-プラスチックごみ,laundry hanger (made of plastic),Resources garbage (item: other metals) for those made of metal.,l
-プラスチックごみ,basin,It is limited to plastic.,b
-プラスチックごみ,artificial flower (made of plastic),Put the paper in burnable garbage.,a
-プラスチックごみ,seasong container (made of plastic),Use up and wash contents inside.,s
-プラスチックごみ,telephone card,,t
-プラスチックごみ,tray (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,t
-プラスチックごみ,tray (made of plastic),Remove foreign matter and remove dirt as much as possible.,t
-プラスチックごみ,bucket (made of plastic),Remove foreign matter and remove dirt as much as possible.,b
+プラスチックごみ,container such as air freshener (made of plastic),Use up the contents and remove foreign objects.,c
+プラスチックごみ,cutting board (made of plastic),,c
+プラスチックごみ,conditioner container (made of plastic),Use up and wash contents inside.,c
+プラスチックごみ,fan (made of plastic),,f
 プラスチックごみ,foaming polystyrene,,f
 プラスチックごみ,hanger (made of plastic),Landfill waste when metal is attached.,h
+プラスチックごみ,laundry hanger (made of plastic),Resources garbage (item: other metals) for those made of metal.,l
+プラスチックごみ,potty,To remove discard.,p
+プラスチックごみ,photo negative,,p
 プラスチックごみ,plastic bag,,p
 プラスチックごみ,planter,Limited to those less than 50 cm.,p
 プラスチックごみ,plastic bottle (restrict to PET1),Wash it and remove the cap and label.,p
-プラスチックごみ,container such as air freshener (made of plastic),Use up the contents and remove foreign objects.,c
 プラスチックごみ,plastic tank,Limited to less than 18 liters.,p
 プラスチックごみ,plastic bag,Do not put in other plastic products.,p
-プラスチックごみ,cutting board (made of plastic),,c
 プラスチックごみ,plastic wraps,Remove dirt as much as possible.,p
-プラスチックごみ,conditioner container (made of plastic),Use up and wash contents inside.,c
 プラスチックごみ,plastic sheeting,Collapse smallly. Cut out large ones.,p
-可燃ごみ,fan (made of bamboo),,f
-可燃ごみ,pencil,,p
-可燃ごみ,shell,,s
-可燃ごみ,steamed fish paste board,,s
-可燃ごみ,disposable diaper,Discard the filth into the toilet.,d
-可燃ごみ,wastepaper (tissue),,w
-可燃ごみ,socks,,s
+プラスチックごみ,shampoo container,Use up the contents and wash the inside.,s
+プラスチックごみ,seasong container (made of plastic),Use up and wash contents inside.,s
+プラスチックごみ,tablet covering,Put medicine on burnable garbage.,t
+プラスチックごみ,telephone card,,t
+プラスチックごみ,tray (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,t
+プラスチックごみ,tray (made of plastic),Remove foreign matter and remove dirt as much as possible.,t
+可燃ごみ,absorbent cotton,,a
+可燃ごみ,bamboo skewer,Fold the tip.,b
 可燃ごみ,crayon,,c
-可燃ごみ,work glove,,w
+可燃ごみ,core (tissue wrap),,c
+可燃ごみ,cutting board (wood product),,c
+可燃ごみ,chip of wood,It is limited to the wood piece of about the building block.,c
+可燃ごみ,disposable diaper,Discard the filth into the toilet.,d
+可燃ごみ,disposable wooden chopsticks,,d
+可燃ごみ,fan (made of bamboo),,f
+可燃ごみ,foos waste,Remove sufficient moisture.,f
+可燃ごみ,pencil,,p
 可燃ごみ,poultice,,p
 可燃ごみ,photograph,,p
-可燃ごみ,core (tissue wrap),,c
+可燃ごみ,paper towel,,p
+可燃ごみ,rope (hemp),Roll up and put out.,r
+可燃ごみ,shell,,s
+可燃ごみ,steamed fish paste board,,s
+可燃ごみ,socks,,s
 可燃ごみ,stockings,,s
 可燃ごみ,sponge,,s
 可燃ごみ,sanitary items,,s
-可燃ごみ,wiping rag,,w
-可燃ごみ,bamboo skewer,Fold the tip.,b
-可燃ごみ,absorbent cotton,,a
 可燃ごみ,scrub,Waste garbage is made of metal.,s
 可燃ごみ,tea leaves,Remove sufficient moisture.,t
-可燃ごみ,foos waste,Remove sufficient moisture.,f
-可燃ごみ,wet tissue,,w
 可燃ごみ,"underpants,shorts",,u
-可燃ごみ,paper towel,,p
-可燃ごみ,cutting board (wood product),,c
-可燃ごみ,chip of wood,It is limited to the wood piece of about the building block.,c
-可燃ごみ,rope (hemp),Roll up and put out.,r
-可燃ごみ,disposable wooden chopsticks,,d
-資源ごみ,cardboard (confectionery box),Sort it into used paper (other paper).,c
+可燃ごみ,wastepaper (tissue),,w
+可燃ごみ,work glove,,w
+可燃ごみ,wiping rag,,w
+可燃ごみ,wet tissue,,w
 資源ごみ,aluminum can,Separate into aluminum cans.,a
-資源ごみ,plate glass,It is classified as broken glass.,p
-資源ごみ,one bottle,Wash the inside with water and take the cap.,o
+資源ごみ,bottle,,b
+資源ごみ,cardboard (confectionery box),Sort it into used paper (other paper).,c
 資源ごみ,clothes,Divided into thick and thin and it binds to the cross with a string made of paper.,c
 資源ごみ,curtain rail (metallic),Fold it around 50 cm.,c
-資源ごみ,gas table,Remove anything other than metal as much as possible.,g
 資源ごみ,cutter blade,Put it in a metal can with a lid. It is classified as other metal.,c
-資源ごみ,hardware,It is classified as metal (Item: other metal).,h
 資源ごみ,can,It is divided into steel cans and aluminum cans.,c
 資源ごみ,canned can,It is classified as a steel can.,c
 資源ごみ,cap (metallic),It is classified as metal (Item: other metal).,c
-資源ごみ,nail,Put it in a metal can with a lid.,n
-資源ごみ,magazine,It is classified as waste paper (Item: other paper).,m
+資源ごみ,cardboard box,It is classified as waste paper (cardboard).,c
+資源ごみ,crown cap,It is classified as metal (Item: other metal).,c
 資源ごみ,edible oil,"Transfer to PET bottles, etc., Government office, town community exchange center, town district center, to town branch JA branch.",e
+資源ごみ,enamel pot,It is classified as metal (Item: other metal).,e
+資源ごみ,frying pan,,f
+資源ごみ,gas table,Remove anything other than metal as much as possible.,g
+資源ごみ,hardware,It is classified as metal (Item: other metal).,h
+資源ごみ,kettle,,k
+資源ごみ,lid of the bottle,It is classified as metal (Item: other metal).,l
+資源ごみ,magazine,It is classified as waste paper (Item: other paper).,m
+資源ごみ,nail,Put it in a metal can with a lid.,n
 資源ごみ,newspaper,It is classified as waste paper (newspaper).,n
+資源ごみ,one bottle,Wash the inside with water and take the cap.,o
+資源ごみ,plate glass,It is classified as broken glass.,p
+資源ごみ,pot,Remove anything other than metal as much as possible. It is classified as other metal.,p
 資源ごみ,steel can,It is classified as a steel can.,s
 資源ごみ,steel box,It is classified as metal (Item: other metal).,s
 資源ごみ,spray can,Open a hole and put out. It is classified as metal (Item: other metal).,s
-資源ごみ,cardboard box,It is classified as waste paper (cardboard).,c
 資源ごみ,seasoning bottle and condiment bottle,Wash the inside lightly while wasting the contents and take the cap.,s
 資源ごみ,traditional razor (made of metal),Put it in a metal can with a lid. It is classified as other metal.,t
-資源ごみ,pot,Remove anything other than metal as much as possible. It is classified as other metal.,p
 資源ごみ,wire,It is classified as metal (Item: other metal).,w
-資源ごみ,bottle,,b
-資源ごみ,lid of the bottle,It is classified as metal (Item: other metal).,l
-資源ごみ,frying pan,,f
-資源ごみ,enamel pot,It is classified as metal (Item: other metal).,e
-資源ごみ,kettle,,k
-埋立ごみ,crown cap,It is classified as metal (Item: other metal).,c
-資源ごみ,crown cap,It is classified as metal (Item: other metal).,c
-埋立ごみ,iron,,i
 埋立ごみ,album,,a
 埋立ごみ,aluminum foil,,a
-埋立ごみ,ink ribbon,,i
-埋立ごみ,flowerpot (unglazed pot),,f
-埋立ごみ,coloring material,,c
-埋立ごみ,Thermometer,,T
-埋立ごみ,mirror,"The broken thing is wrapped in a bag and displayed as ""danger"".",m
-埋立ごみ,umbllera,Bundle it out so that it does not spread.,u
-埋立ごみ,cassette tape,,c
+埋立ごみ,a moth repellent,,a
+埋立ごみ,alarm clock,Remove the batteries.,a
 埋立ごみ,bag,It is limited to the size to enter the recommendation bag of the town. The big one is bulky garbage.,b
-埋立ごみ,wall clock,It is limited to the size to enter the recommendation bag of the town. I will take dry batteries.,w
-埋立ごみ,camera,,c
-埋立ごみ,glass cup,,g
-埋立ごみ,glass tableware,,g
-埋立ごみ,leather,,l
-埋立ごみ,very dirty can,,v
-埋立ごみ,desiccant,,d
-埋立ごみ,leather shoes and sneakers,Pick up the soil and take out.,l
-埋立ごみ,fluorescent light,"Do not break and put it out. Bundle it if there are two or more.",f
-埋立ごみ,cosmetic tube,,c
-埋立ごみ,cosmetic bottle(s),,c
-埋立ごみ,rubber product(s),,r
-埋立ごみ,felt pen,,f
-埋立ごみ,sandals (not made of plastic),,s
-埋立ごみ,CD MD DVD,,C
-埋立ごみ,unglazed pot,,u
-埋立ごみ,slipper,,s
-埋立ごみ,ceramics,,c
-埋立ごみ,deodorizer,,d
-埋立ごみ,portable warm pad,,p
-埋立ごみ,disposable light,Please exhaust the gas.,d
-埋立ごみ,traditional razor,Cover the blade with an adhesive tape or the like. Put it in a bag and put it out.,t
-埋立ごみ,video game software,,v
-埋立ごみ,electric razor,,e
-埋立ごみ,LED light or normal light,,L
-埋立ごみ,calculator,,c
-埋立ごみ,hairdryer,,h
-埋立ごみ,rain boots,Pick up the soil and take out.,r
-埋立ごみ,doll,It is limited to the size to enter the recommendation bag of the town. ,d
-埋立ごみ,the scissors,,t
 埋立ごみ,bag,,b
-埋立ごみ,hanger made of wood,,h
-埋立ごみ,hanger that has been coated with vinyl,,h
-埋立ごみ,video tape,,v
-埋立ごみ,helmet,,h
 埋立ごみ,ball,Pull out the air.,b
 埋立ごみ,broom,The big one is bulky garbage.,b
-埋立ごみ,a moth repellent,,a
-埋立ごみ,kitchen knife,Please cover the edge and the sharp point with adhesive tape etc. and display "danger" in the bag.,k
 埋立ごみ,ballpoint pen,,b
-埋立ごみ,thermo-pot,,t
+埋立ごみ,crown cap,It is classified as metal (Item: other metal).,c
+埋立ごみ,coloring material,,c
+埋立ごみ,cassette tape,,c
+埋立ごみ,camera,,c
+埋立ごみ,cosmetic tube,,c
+埋立ごみ,cosmetic bottle(s),,c
+埋立ごみ,CD MD DVD,,C
+埋立ごみ,ceramics,,c
+埋立ごみ,calculator,,c
 埋立ごみ,cold reserving material; cold insulator,,c
-埋立ごみ,thermos bottle,,t
+埋立ごみ,desiccant,,d
+埋立ごみ,deodorizer,,d
+埋立ごみ,disposable light,Please exhaust the gas.,d
+埋立ごみ,doll,It is limited to the size to enter the recommendation bag of the town. ,d
+埋立ごみ,electric razor,,e
+埋立ごみ,flowerpot (unglazed pot),,f
+埋立ごみ,fluorescent light,Do not break and put it out. Bundle it if there are two or more.,f
+埋立ごみ,felt pen,,f
+埋立ごみ,glass cup,,g
+埋立ごみ,glass tableware,,g
 埋立ごみ,glasses,,g
-埋立ごみ,alarm clock,Remove the batteries.,a
+埋立ごみ,hairdryer,,h
+埋立ごみ,hanger made of wood,,h
+埋立ごみ,hanger that has been coated with vinyl,,h
+埋立ごみ,helmet,,h
+埋立ごみ,iron,,i
+埋立ごみ,ink ribbon,,i
+埋立ごみ,kitchen knife,"Please cover the edge and the sharp point with adhesive tape etc. and display ""danger"" in the bag.",k
+埋立ごみ,leather,,l
+埋立ごみ,leather shoes and sneakers,Pick up the soil and take out.,l
+埋立ごみ,LED light or normal light,,L
+埋立ごみ,mirror,"The broken thing is wrapped in a bag and displayed as ""danger"".",m
 埋立ごみ,melodion,,m
-埋立ごみ,racket,,r
+埋立ごみ,portable warm pad,,p
 埋立ごみ,portable radio,,p
-埋立ごみ,school bag,,s
+埋立ごみ,rubber product(s),,r
+埋立ごみ,rain boots,Pick up the soil and take out.,r
+埋立ごみ,racket,,r
 埋立ごみ,remote controller,Remove the batteries.,r
 埋立ごみ,rubber band,,r
+埋立ごみ,sandals (not made of plastic),,s
+埋立ごみ,slipper,,s
+埋立ごみ,school bag,,s
+埋立ごみ,Thermometer,,T
+埋立ごみ,traditional razor,Cover the blade with an adhesive tape or the like. Put it in a bag and put it out.,t
+埋立ごみ,the scissors,,t
+埋立ごみ,thermo-pot,,t
+埋立ごみ,thermos bottle,,t
+埋立ごみ,umbllera,Bundle it out so that it does not spread.,u
+埋立ごみ,unglazed pot,,u
+埋立ごみ,very dirty can,,v
+埋立ごみ,video game software,,v
+埋立ごみ,video tape,,v
+埋立ごみ,wall clock,It is limited to the size to enter the recommendation bag of the town. I will take dry batteries.,w
