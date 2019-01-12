@@ -33,34 +33,34 @@ type,name,notice,furigana
 プラスチックごみ,telephone card,,t
 プラスチックごみ,tray (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,t
 プラスチックごみ,tray (made of plastic),Remove foreign matter and remove dirt as much as possible.,t
-BURNABLE GARBAGE,absorbent cotton,,a
-BURNABLE GARBAGE,bamboo skewer,Fold the tip.,b
-BURNABLE GARBAGE,crayon,,c
-BURNABLE GARBAGE,core (tissue wrap),,c
-BURNABLE GARBAGE,cutting board (wood product),,c
-BURNABLE GARBAGE,chip of wood,It is limited to the wood piece of about the building block.,c
-BURNABLE GARBAGE,disposable diaper,Discard the filth into the toilet.,d
-BURNABLE GARBAGE,disposable wooden chopsticks,,d
-BURNABLE GARBAGE,fan (made of bamboo),,f
-BURNABLE GARBAGE,foos waste,Remove sufficient moisture.,f
-BURNABLE GARBAGE,pencil,,p
-BURNABLE GARBAGE,poultice,,p
-BURNABLE GARBAGE,photograph,,p
-BURNABLE GARBAGE,paper towel,,p
-BURNABLE GARBAGE,rope (hemp),Roll up and put out.,r
-BURNABLE GARBAGE,shell,,s
-BURNABLE GARBAGE,steamed fish paste board,,s
-BURNABLE GARBAGE,socks,,s
-BURNABLE GARBAGE,stockings,,s
-BURNABLE GARBAGE,sponge,,s
-BURNABLE GARBAGE,sanitary items,,s
-BURNABLE GARBAGE,scrub,Waste garbage is made of metal.,s
-BURNABLE GARBAGE,tea leaves,Remove sufficient moisture.,t
-BURNABLE GARBAGE,"underpants,shorts",,u
-BURNABLE GARBAGE,wastepaper (tissue),,w
-BURNABLE GARBAGE,work glove,,w
-BURNABLE GARBAGE,wiping rag,,w
-BURNABLE GARBAGE,wet tissue,,w
+可燃ごみ,absorbent cotton,,a
+可燃ごみ,bamboo skewer,Fold the tip.,b
+可燃ごみ,crayon,,c
+可燃ごみ,core (tissue wrap),,c
+可燃ごみ,cutting board (wood product),,c
+可燃ごみ,chip of wood,It is limited to the wood piece of about the building block.,c
+可燃ごみ,disposable diaper,Discard the filth into the toilet.,d
+可燃ごみ,disposable wooden chopsticks,,d
+可燃ごみ,fan (made of bamboo),,f
+可燃ごみ,foos waste,Remove sufficient moisture.,f
+可燃ごみ,pencil,,p
+可燃ごみ,poultice,,p
+可燃ごみ,photograph,,p
+可燃ごみ,paper towel,,p
+可燃ごみ,rope (hemp),Roll up and put out.,r
+可燃ごみ,shell,,s
+可燃ごみ,steamed fish paste board,,s
+可燃ごみ,socks,,s
+可燃ごみ,stockings,,s
+可燃ごみ,sponge,,s
+可燃ごみ,sanitary items,,s
+可燃ごみ,scrub,Waste garbage is made of metal.,s
+可燃ごみ,tea leaves,Remove sufficient moisture.,t
+可燃ごみ,"underpants,shorts",,u
+可燃ごみ,wastepaper (tissue),,w
+可燃ごみ,work glove,,w
+可燃ごみ,wiping rag,,w
+可燃ごみ,wet tissue,,w
 資源ごみ,aluminum can,Separate into aluminum cans.,a
 資源ごみ,bottle,,b
 資源ごみ,cardboard (confectionery box),Sort it into used paper (other paper).,c
