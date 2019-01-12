@@ -1,38 +1,38 @@
 type,name,notice,furigana
-プラスチックごみ,aluminum coated bag,,a
-プラスチックごみ,artificial flower (made of plastic),Put the paper in burnable garbage.,a
-プラスチックごみ,bag of sweets(Includes a silver bag inside),It is limited to plastic.,b
-プラスチックごみ,bath mat,Cut one side to 50 cm or less.,b
-プラスチックごみ,basin,It is limited to plastic.,b
-プラスチックごみ,bucket (made of plastic),Remove foreign matter and remove dirt as much as possible.,b
-プラスチックごみ,curtain rail (made of plastic),Cut to about 50 cm.,c
-プラスチックごみ,cup noodles container (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,c
-プラスチックごみ,cup noodles container (made of plastic),Remove foreign matter and remove dirt as much as possible.,c
-プラスチックごみ,cups,Remove foreign matter and remove dirt as much as possible.,c
-プラスチックごみ,cap (made of plastic),Metal caps are resource waste.,c
-プラスチックごみ,cooking oil container,Use up the contents and wash the inside.,c
-プラスチックごみ,container such as air freshener (made of plastic),Use up the contents and remove foreign objects.,c
-プラスチックごみ,cutting board (made of plastic),,c
-プラスチックごみ,conditioner container (made of plastic),Use up and wash contents inside.,c
-プラスチックごみ,fan (made of plastic),,f
-プラスチックごみ,foaming polystyrene,,f
-プラスチックごみ,hanger (made of plastic),Landfill waste when metal is attached.,h
-プラスチックごみ,laundry hanger (made of plastic),Resources garbage (item: other metals) for those made of metal.,l
-プラスチックごみ,potty,To remove discard.,p
-プラスチックごみ,photo negative,,p
-プラスチックごみ,plastic bag,,p
-プラスチックごみ,planter,Limited to those less than 50 cm.,p
-プラスチックごみ,plastic bottle (restrict to PET1),Wash it and remove the cap and label.,p
-プラスチックごみ,plastic tank,Limited to less than 18 liters.,p
-プラスチックごみ,plastic bag,Do not put in other plastic products.,p
-プラスチックごみ,plastic wraps,Remove dirt as much as possible.,p
-プラスチックごみ,plastic sheeting,Collapse smallly. Cut out large ones.,p
-プラスチックごみ,shampoo container,Use up the contents and wash the inside.,s
-プラスチックごみ,seasong container (made of plastic),Use up and wash contents inside.,s
-プラスチックごみ,tablet covering,Put medicine on burnable garbage.,t
-プラスチックごみ,telephone card,,t
-プラスチックごみ,tray (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,t
-プラスチックごみ,tray (made of plastic),Remove foreign matter and remove dirt as much as possible.,t
+,aluminum coated bag,,a
+PLASTIC GARBAGE,artificial flower (made of plastic),Put the paper in burnable garbage.,a
+PLASTIC GARBAGE,bag of sweets(Includes a silver bag inside),It is limited to plastic.,b
+PLASTIC GARBAGE,bath mat,Cut one side to 50 cm or less.,b
+PLASTIC GARBAGE,basin,It is limited to plastic.,b
+PLASTIC GARBAGE,bucket (made of plastic),Remove foreign matter and remove dirt as much as possible.,b
+PLASTIC GARBAGE,curtain rail (made of plastic),Cut to about 50 cm.,c
+PLASTIC GARBAGE,cup noodles container (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,c
+PLASTIC GARBAGE,cup noodles container (made of plastic),Remove foreign matter and remove dirt as much as possible.,c
+PLASTIC GARBAGE,cups,Remove foreign matter and remove dirt as much as possible.,c
+PLASTIC GARBAGE,cap (made of plastic),Metal caps are resource waste.,c
+PLASTIC GARBAGE,cooking oil container,Use up the contents and wash the inside.,c
+PLASTIC GARBAGE,container such as air freshener (made of plastic),Use up the contents and remove foreign objects.,c
+PLASTIC GARBAGE,cutting board (made of plastic),,c
+PLASTIC GARBAGE,conditioner container (made of plastic),Use up and wash contents inside.,c
+PLASTIC GARBAGE,fan (made of plastic),,f
+PLASTIC GARBAGE,foaming polystyrene,,f
+PLASTIC GARBAGE,hanger (made of plastic),Landfill waste when metal is attached.,h
+PLASTIC GARBAGE,laundry hanger (made of plastic),Resources garbage (item: other metals) for those made of metal.,l
+PLASTIC GARBAGE,potty,To remove discard.,p
+PLASTIC GARBAGE,photo negative,,p
+PLASTIC GARBAGE,plastic bag,,p
+PLASTIC GARBAGE,planter,Limited to those less than 50 cm.,p
+PLASTIC GARBAGE,plastic bottle (restrict to PET1),Wash it and remove the cap and label.,p
+PLASTIC GARBAGE,plastic tank,Limited to less than 18 liters.,p
+PLASTIC GARBAGE,plastic bag,Do not put in other plastic products.,p
+PLASTIC GARBAGE,plastic wraps,Remove dirt as much as possible.,p
+PLASTIC GARBAGE,plastic sheeting,Collapse smallly. Cut out large ones.,p
+PLASTIC GARBAGE,shampoo container,Use up the contents and wash the inside.,s
+PLASTIC GARBAGE,seasong container (made of plastic),Use up and wash contents inside.,s
+PLASTIC GARBAGE,tablet covering,Put medicine on burnable garbage.,t
+PLASTIC GARBAGE,telephone card,,t
+PLASTIC GARBAGE,tray (made of foaming polystyrene),Remove foreign matter and remove dirt as much as possible.,t
+PLASTIC GARBAGE,tray (made of plastic),Remove foreign matter and remove dirt as much as possible.,t
 BURNABLE GARBAGE,absorbent cotton,,a
 BURNABLE GARBAGE,bamboo skewer,Fold the tip.,b
 BURNABLE GARBAGE,crayon,,c
