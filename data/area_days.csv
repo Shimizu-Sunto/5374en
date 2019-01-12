@@ -1,22 +1,21 @@
 マスター,地名,センター,BURNABLE GARBAGE,RECYCLABLE GARBAGE,UNBURNABLE GARBAGE,PLASTIC GARBAGE
-1,Tamagawa,NULL,月 木,日3,火2 火4,金
-1,Shinsyuku,NULL,月 木,20180422 20180527 20180624 20180722 20180819 20180923 20181028 20181125 20181223 20190127 20190224 20190324,土2 土4,水
-1,Fushimi A,NULL,月 木,20180401 20180506 20180610 20180701 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,土2 土4,水
-1,Fushimi B,NULL,火 金,20180401 20180506 20180610 20180701 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,土2 土4,水
-1,Doniwa,NULL,火 金,日1,月2 月4,木
-1,Kumaiden,NULL,月 木,20180401 20180506 20180603 20180708 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,火2 火4,金
-2,Tohata,NULL,月 木,日4,火2 火4,金
-2,Matoba,NULL,月 木,日3,火2 火4,金
-2,Yugawa,NULL,月 木,日3,火2 火4,金
-2,KamitokuraA,NULL,火 金,日2,木2 木4,月
-2,KamitokuraB,NULL,火 金,日2,木2 木4,月
-2,ShimotokuraA,NULL,火 金,日4,水2 水4,木
-2,ShimotokuraB,NULL,火 金,日4,水2 水4,木
-2,Nakatokura,NULL,月 木,20180422 20180527 20180624 20180729 20180819 20180930 20181028 20181125 20181223 20190127 20190224 20190324,金2 金4,火
-2,Sotobara,NULL,月 木,日2,金2 金4,火
-3,Nagasawa A,NULL,月 木,日3,水2 水4,土
-3,Nagasawa B,NULL,月 木,日3,水2 水4,土
-3,Motonagasawa,NULL,月 木,日2,水2 水4,土
-3,Yahata,NULL,火 金,日1,水2 水4,土
-3,Kakida A,NULL,火 金,日1,月2 月4,木
-3,Kakida B,NULL,火 金,日1,月2 月4,木
+1,Tamagawa,NULL,Monday Thursday,Sunday3,Tuesday2 Tuesday4,Friday
+1,Shinsyuku,NULL,Monday Thursday,20180422 20180527 20180624 20180722 20180819 20180923 20181028 20181125 20181223 20190127 20190224 20190324,Saturday2 Saturday4,Wednesday
+1,Fushimi A,NULL,Monday Thursday,20180401 20180506 20180610 20180701 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,Saturday2 Saturday4,Wednesday
+1,Fushimi B,NULL,Tuesday Friday,20180401 20180506 20180610 20180701 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,Saturday2 Saturday4,Wednesday
+1,Doniwa,NULL,Tuesday Friday,Sunday1,Monday2 Monday4,Thursday
+1,Kumaiden,NULL,Monday Thursday,20180401 20180506 20180603 20180708 20180805 20180902 20181014 20181104 20181209 20190106 20190203 20190303,Tuesday2 Tuesday4,Friday
+2,Tohata,NULL,Monday Thursday,Sunday4,Tuesday2 Tuesday4,Friday
+2,Matoba,NULL,Monday Thursday,Sunday3,Tuesday2 Tuesday4,Friday
+2,Yugawa,NULL,Monday Thursday,Sunday3,Tuesday2 Tuesday4,Friday
+2,KamitokuraA,NULL,Wednesday Friday,Sunday2,Thursday2 Thursday4,Monday
+2,ShimotokuraA,NULL,Tuesday Friday,Sunday4,Wednesday2 Wednesday4,Thursday
+2,ShimotokuraB,NULL,Tuesday Friday,Sunday4,Wednesday2 Wednesday4,Thursday
+2,Nakatokura,NULL,Monday Thursday,20180422 20180527 20180624 20180729 20180819 20180930 20181028 20181125 20181223 20190127 20190224 20190324,Friday2 Friday4,Tuesday
+2,Sotobara,NULL,Monday Thursday,Sunday2,Friday2 Friday4,
+3,Nagasawa A,NULL,Monday Thursday,Sunday3,Wednesday2 Wednesday4,Saturday
+3,Nagasawa B,NULL,Monday Thursday,Sunday3,Wednesday2 Wednesday4,Saturday
+3,Motonagasawa,NULL,Monday Thursday,Sunday2,Wednesday2 Wednesday4,Saturday
+3,Yahata,NULL,Tuesday Friday,Sunday1,Wednesday2 Wednesday4,Saturday
+3,Kakida A,NULL,Tuesday Friday,Sunday1,Monday2 Monday4,Thursday
+3,Kakida B,NULL,Tuesday Friday,Sunday1,Monday2 Monday4,Thursday
