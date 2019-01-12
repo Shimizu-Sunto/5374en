@@ -468,7 +468,7 @@ $(function() {
         var area_master_select_form = $("#select_area_master");
         var select_master_html = "";
 
-        select_master_html += '<option value="-1">Please select your district.</option>';
+        select_master_html += '<option value="-1">地区を選択してください</option>';
         for (var row_index in areaMasterModels) {
           var area_master_name = areaMasterModels[row_index].name;
           var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
@@ -534,7 +534,7 @@ $(function() {
         var selected_name = getSelectedAreaName();
         var area_select_form = $("#select_area");
         var select_html = "";
-        select_html += '<option value="-1">Please select your area.</option>';
+        select_html += '<option value="-1">地域を選択してください</option>';
         for (var row_index in areaModels) {
           var area_name = areaModels[row_index].label;
           var selected = (selected_name == area_name) ? 'selected="selected"' : "";
@@ -740,7 +740,7 @@ $(function() {
       if (row_index == -1) {
         // 初期化
         $("#accordion").html("");
-        $("#select_area").html('<option value="-1">Please select your area.</option>');
+        $("#select_area").html('<option value="-1">地域を選択してください</option>');
         setSelectedAreaMasterName("");
         return;
       }
@@ -751,7 +751,7 @@ $(function() {
       if(checkAreaMasterName == checkAreaMasterNameBefore){
       }else{
         $("#accordion").html("");
-        $("#select_area").html('<option value="-1">Please select your area.。</option>');
+        $("#select_area").html('<option value="-1">地域を選択してください。</option>');
         setSelectedAreaName("");
       }
 
