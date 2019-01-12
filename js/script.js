@@ -98,7 +98,7 @@ var TrashModel = function(_lable, _cell, remarks) {
   for (var j in this.dayCell) {
 
     if (this.dayCell[j].length == 1) {
-      result_text += "毎週" + this.dayCell[j] + "曜日 ";
+      result_text += "On" + this.dayCell[j] + "s";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
@@ -136,7 +136,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     }
   };
 
-  var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
+  var day_enum = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
   function getDayIndex(str) {
     for (var i = 0; i < day_enum.length; i++) {
