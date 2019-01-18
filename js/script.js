@@ -96,9 +96,32 @@ var TrashModel = function(_lable, _cell, remarks) {
   var today = new Date();
 
   for (var j in this.dayCell) {
-
+    if(this.dayCell[j] == "月"){
+    	this.dayCell[j] == "Monday";
+    }
+    else(this.dayCell[j] == "火"){
+    	this.dayCell[j] == "Tuesday";
+    }
+    else(this.dayCell[j] == "水"){
+    	this.dayCell[j] == "Wednesday";
+    }
+    else(this.dayCell[j] == "木"){
+    	this.dayCell[j] == "Thursday";
+    }
+    else(this.dayCell[j] == "金"){
+    	this.dayCell[j] == "Friday";
+    }
+    else(this.dayCell[j] == "土"){
+    	this.dayCell[j] == "Saturday";
+    }
+    else(this.dayCell[j] == "日"){
+    	this.dayCell[j] == "Sunday";
+    }
+    
     if (this.dayCell[j].length == 1) {
+    
       result_text += "On" + this.dayCell[j] + "s";
+      
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
@@ -113,7 +136,7 @@ var TrashModel = function(_lable, _cell, remarks) {
       this.regularFlg = 3;	// 4週フラグ
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
-      result_text = "不定期 ";
+      result_text = "Irregular ";
       this.regularFlg = 0;  // 定期回収フラグオフ
     }
   }
