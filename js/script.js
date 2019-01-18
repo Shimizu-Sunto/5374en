@@ -97,25 +97,25 @@ var TrashModel = function(_lable, _cell, remarks) {
 
   for (var j in this.dayCell) {
     if(this.dayCell[j] == "月"){
-    	this.dayCell[j] == "Monday";
+    	this.dayCell[j] = "Monday";
     }
     else(this.dayCell[j] == "火"){
-    	this.dayCell[j] == "Tuesday";
+    	this.dayCell[j] = "Tuesday";
     }
     else(this.dayCell[j] == "水"){
-    	this.dayCell[j] == "Wednesday";
+    	this.dayCell[j] = "Wednesday";
     }
     else(this.dayCell[j] == "木"){
-    	this.dayCell[j] == "Thursday";
+    	this.dayCell[j] = "Thursday";
     }
     else(this.dayCell[j] == "金"){
-    	this.dayCell[j] == "Friday";
+    	this.dayCell[j] = "Friday";
     }
     else(this.dayCell[j] == "土"){
-    	this.dayCell[j] == "Saturday";
+    	this.dayCell[j] = "Saturday";
     }
     else(this.dayCell[j] == "日"){
-    	this.dayCell[j] == "Sunday";
+    	this.dayCell[j] = "Sunday";
     }
     
     if (this.dayCell[j].length == 1) {
