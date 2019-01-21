@@ -95,8 +95,11 @@ var TrashModel = function(_lable, _cell, remarks) {
   var result_text = "";
   var today = new Date();
   var wk;
+  var wkNum;
 
   for (var j in this.dayCell) {
+  
+    //曜日を英語に変換
     if(this.dayCell[j] == "月"){
     	wk = "Monday";
     }
@@ -122,10 +125,53 @@ var TrashModel = function(_lable, _cell, remarks) {
     
     if (this.dayCell[j].length == 1) {
     
-      result_text += "On " + wk + "s   ";
+      result_text += "On " + wk + "s  ";
       
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
-      result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
+      
+      //月２の「２」を英語にする
+      if(this.dayCell[j].charAt(1) == "1"){
+      	wkNum = "first ";
+      }
+      else if(this.dayCell[j].charAt(1) == "2"){
+      	wkNum = "second ";
+      }
+      else if(this.dayCell[j].charAt(1) == "3"){
+      	wkNum = "third ";
+      }
+      else if(this.dayCell[j].charAt(1) == "4"){
+      	wkNum = "four ";
+      }
+      else if(this.dayCell[j].charAt(1) == "5"){
+      	wkNum = "five ";
+      }
+      else{}
+      
+      //月２の「月」を英語にする
+      if(this.dayCell[j].charAt(0) == "月"){
+      	wk = "Monday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "火"){
+      	wk = "Tuesday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "水"){
+      	wk = "Wednesday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "木"){
+      	wk = "Thursday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "金"){
+      	wk = "Friday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "土"){
+      	wk = "Saturday   ";
+      }
+      else if(this.dayCell[j].charAt(0) == "日"){
+      	wk = "Sunday   ";
+      }
+      else{}
+      
+      result_text += wkNum + wk ;
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
