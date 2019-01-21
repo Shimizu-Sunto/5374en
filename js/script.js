@@ -175,25 +175,25 @@ var TrashModel = function(_lable, _cell, remarks) {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
       /****ADD****/
       
-      if(this.dayCell[j].charAt(0) == "月"){
+      if(this.dayCell[j].charAt(1) == "月"){
       	wk = "Monday";
       }
-      else if(this.dayCell[j].charAt(0) == "火"){
+      else if(this.dayCell[j].charAt(1) == "火"){
       	wk = "Tuesday";
       }
-      else if(this.dayCell[j].charAt(0) == "水"){
+      else if(this.dayCell[j].charAt(1) == "水"){
       	wk = "Wednesday";
       }
-      else if(this.dayCell[j].charAt(0) == "木"){
+      else if(this.dayCell[j].charAt(1) == "木"){
       	wk = "Thursday";
       }
-      else if(this.dayCell[j].charAt(0) == "金"){
+      else if(this.dayCell[j].charAt(1) == "金"){
       	wk = "Friday";
       }
-      else if(this.dayCell[j].charAt(0) == "土"){
+      else if(this.dayCell[j].charAt(1) == "土"){
       	wk = "Saturday";
       }
-      else if(this.dayCell[j].charAt(0) == "日"){
+      else if(this.dayCell[j].charAt(1) == "日"){
       	wk = "Sunday";
       }
       
@@ -201,7 +201,31 @@ var TrashModel = function(_lable, _cell, remarks) {
       this.regularFlg = 2;      // 隔週フラグ
       /****ADD****/
     } else if ( this.dayCell[j].length == 11 && this.dayCell[j].substr(0,2) == "4週" ) {
-      result_text += "4週毎" + this.dayCell[j].charAt(2) + "曜 ";
+      
+      if(this.dayCell[j].charAt(2) == "月"){
+      	wk = "Monday";
+      }
+      else if(this.dayCell[j].charAt(2) == "火"){
+      	wk = "Tuesday";
+      }
+      else if(this.dayCell[j].charAt(2) == "水"){
+      	wk = "Wednesday";
+      }
+      else if(this.dayCell[j].charAt(2) == "木"){
+      	wk = "Thursday";
+      }
+      else if(this.dayCell[j].charAt(2) == "金"){
+      	wk = "Friday";
+      }
+      else if(this.dayCell[j].charAt(2) == "土"){
+      	wk = "Saturday";
+      }
+      else if(this.dayCell[j].charAt(2) == "日"){
+      	wk = "Sunday";
+      }
+      
+      
+      result_text += "4 weeks every " + wk;
       this.regularFlg = 3;	// 4週フラグ
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
