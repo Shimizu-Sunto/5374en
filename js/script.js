@@ -171,7 +171,7 @@ var TrashModel = function(_lable, _cell, remarks) {
       }
       else{}
       
-      result_text += wkNum + wk&emsp; ;
+      result_text += wkNum + wk + "&emsp;" ;
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
