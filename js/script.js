@@ -174,7 +174,30 @@ var TrashModel = function(_lable, _cell, remarks) {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
       /****ADD****/
-      result_text += "隔週" + this.dayCell[j].charAt(1) + "曜 ";
+      
+      if(this.dayCell[j].charAt(0) == "月"){
+      	wk = "Monday";
+      }
+      else if(this.dayCell[j].charAt(0) == "火"){
+      	wk = "Tuesday";
+      }
+      else if(this.dayCell[j].charAt(0) == "水"){
+      	wk = "Wednesday";
+      }
+      else if(this.dayCell[j].charAt(0) == "木"){
+      	wk = "Thursday";
+      }
+      else if(this.dayCell[j].charAt(0) == "金"){
+      	wk = "Friday";
+      }
+      else if(this.dayCell[j].charAt(0) == "土"){
+      	wk = "Saturday";
+      }
+      else if(this.dayCell[j].charAt(0) == "日"){
+      	wk = "Sunday";
+      }
+      
+      result_text += "Every other" + wk;
       this.regularFlg = 2;      // 隔週フラグ
       /****ADD****/
     } else if ( this.dayCell[j].length == 11 && this.dayCell[j].substr(0,2) == "4週" ) {
