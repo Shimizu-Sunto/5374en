@@ -122,7 +122,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     
     if (this.dayCell[j].length == 1) {
     
-      result_text += "On" + wk + "s";
+      result_text += "On " + wk + "s  ";
       
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
