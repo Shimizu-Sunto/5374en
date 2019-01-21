@@ -96,7 +96,33 @@ var TrashModel = function(_lable, _cell, remarks) {
   var today = new Date();
 
   for (var j in this.dayCell) {
-
+  	
+  	
+  	//曜日を英語に変換
+    if(this.dayCell[j] == "月"){
+    	wk = "Monday";
+    }
+    else if(this.dayCell[j] == "火"){
+    	wk = "Tuesday";
+    }
+    else if(this.dayCell[j] == "水"){
+    	wk = "Wednesday";
+    }
+    else if(this.dayCell[j] == "木"){
+    	wk = "Thursday";
+    }
+    else if(this.dayCell[j] == "金"){
+    	wk = "Friday";
+    }
+    else if(this.dayCell[j] == "土"){
+    	wk = "Saturday";
+    }
+    else if(this.dayCell[j] == "日"){
+    	wk = "Sunday";
+    }
+    else{}
+    
+    
     if (this.dayCell[j].length == 1) {
       result_text += "On " + this.dayCell[j] + "s&emsp;";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
