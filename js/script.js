@@ -724,10 +724,8 @@ $(function() {
               leftDayText = "Today";
             } else if (leftDay == 1) {
               leftDayText = "Tomorrow";
-            } else if (leftDay == 2) {
-              leftDayText = "明後日"
             } else {
-              leftDayText = leftDay + "日後";
+              leftDayText = leftDay + "&nbsp;days after";
             }
 	  }
           styleHTML += '#accordion-group' + d_no + '{background-color:  ' + description.background + ';} ';
