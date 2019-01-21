@@ -727,7 +727,7 @@ $(function() {
             } else if (leftDay == 1) {
               leftDayText = "Tomorrow";
             } else {
-              leftDayText = leftDay + "日後";
+              leftDayText = leftDay + "days after";
             }
 	  }
           styleHTML += '#accordion-group' + d_no + '{background-color:  ' + description.background + ';} ';
