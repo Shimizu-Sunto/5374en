@@ -125,7 +125,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     
     if (this.dayCell[j].length == 1) {
     
-      result_text += "On " + wk + "s&emsp;&emsp;";
+      result_text += "On " + wk + "s&emsp;";
       
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       
@@ -149,29 +149,29 @@ var TrashModel = function(_lable, _cell, remarks) {
       
       //月２の「月」を英語にする
       if(this.dayCell[j].charAt(0) == "月"){
-      	wk = "Monday   ";
+      	wk = "Monday";
       }
       else if(this.dayCell[j].charAt(0) == "火"){
-      	wk = "Tuesday   ";
+      	wk = "Tuesday";
       }
       else if(this.dayCell[j].charAt(0) == "水"){
-      	wk = "Wednesday   ";
+      	wk = "Wednesday";
       }
       else if(this.dayCell[j].charAt(0) == "木"){
-      	wk = "Thursday   ";
+      	wk = "Thursday";
       }
       else if(this.dayCell[j].charAt(0) == "金"){
-      	wk = "Friday   ";
+      	wk = "Friday";
       }
       else if(this.dayCell[j].charAt(0) == "土"){
-      	wk = "Saturday   ";
+      	wk = "Saturday";
       }
       else if(this.dayCell[j].charAt(0) == "日"){
-      	wk = "Sunday   ";
+      	wk = "Sunday";
       }
       else{}
       
-      result_text += wkNum + wk ;
+      result_text += wkNum + wk&emsp; ;
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
