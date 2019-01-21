@@ -169,7 +169,7 @@ var TrashModel = function(_lable, _cell, remarks) {
       	wk = "Sunday";
       }
       
-      result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
+      result_text += wkNum + wk + "&emsp;";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
@@ -723,7 +723,7 @@ $(function() {
             if (leftDay == 0) {
               leftDayText = "Today";
             } else if (leftDay == 1) {
-              leftDayText = "明日";
+              leftDayText = "Tomorrow";
             } else if (leftDay == 2) {
               leftDayText = "明後日"
             } else {
