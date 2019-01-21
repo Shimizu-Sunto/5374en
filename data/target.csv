@@ -56,7 +56,7 @@ BURNABLE GARBAGE,sponge,,s
 BURNABLE GARBAGE,sanitary items,,s
 BURNABLE GARBAGE,scrub,Waste garbage is made of metal.,s
 BURNABLE GARBAGE,tea leaves,Remove sufficient moisture.,t
-BURNABLE GARBAGE,"underpants,shorts",,u
+BURNABLE GARBAGE,"underpants/shorts",,u
 BURNABLE GARBAGE,wastepaper (tissue),,w
 BURNABLE GARBAGE,work glove,,w
 BURNABLE GARBAGE,wiping rag,,w
