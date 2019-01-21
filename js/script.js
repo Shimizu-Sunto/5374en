@@ -96,7 +96,8 @@ var TrashModel = function(_lable, _cell, remarks) {
   var today = new Date();
   
   var wk;
-	
+  var wkNum;
+  
   for (var j in this.dayCell) {
   	
   	
@@ -127,6 +128,24 @@ var TrashModel = function(_lable, _cell, remarks) {
     if (this.dayCell[j].length == 1) {
       result_text += "On " + wk + "s&emsp;";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
+      
+      //月２の「２」を英語にする
+      if(this.dayCell[j].charAt(1) == "1"){
+      	wkNum = "first ";
+      }
+      else if(this.dayCell[j].charAt(1) == "2"){
+      	wkNum = "second ";
+      }
+      else if(this.dayCell[j].charAt(1) == "3"){
+      	wkNum = "third ";
+      }
+      else if(this.dayCell[j].charAt(1) == "4"){
+      	wkNum = "four ";
+      }
+      else if(this.dayCell[j].charAt(1) == "5"){
+      	wkNum = "five ";
+      }
+      
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
