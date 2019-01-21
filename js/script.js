@@ -98,7 +98,7 @@ var TrashModel = function(_lable, _cell, remarks) {
   for (var j in this.dayCell) {
 
     if (this.dayCell[j].length == 1) {
-      result_text += "On" + this.dayCell[j] + "s";
+      result_text += "毎週" + this.dayCell[j] + "曜日 ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
@@ -136,7 +136,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     }
   };
 
-  var day_enum = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
 
   function getDayIndex(str) {
     for (var i = 0; i < day_enum.length; i++) {
@@ -468,7 +468,7 @@ $(function() {
         var area_master_select_form = $("#select_area_master");
         var select_master_html = "";
 
-        select_master_html += '<option value="-1">Please select your district.</option>';
+        select_master_html += '<option value="-1">地区を選択してください</option>';
         for (var row_index in areaMasterModels) {
           var area_master_name = areaMasterModels[row_index].name;
           var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
@@ -534,7 +534,7 @@ $(function() {
         var selected_name = getSelectedAreaName();
         var area_select_form = $("#select_area");
         var select_html = "";
-        select_html += '<option value="-1">Please select your area.</option>';
+        select_html += '<option value="-1">地域を選択してください</option>';
         for (var row_index in areaModels) {
           var area_name = areaModels[row_index].label;
           var selected = (selected_name == area_name) ? 'selected="selected"' : "";
@@ -652,9 +652,11 @@ $(function() {
             var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
 
             if (leftDay == 0) {
-              leftDayText = "Today";
+              leftDayText = "今日";
             } else if (leftDay == 1) {
-              leftDayText = "Tomorrow";
+              leftDayText = "明日";
+            } else if (leftDay == 2) {
+              leftDayText = "明後日"
             } else {
               leftDayText = leftDay + "日後";
             }
@@ -738,7 +740,7 @@ $(function() {
       if (row_index == -1) {
         // 初期化
         $("#accordion").html("");
-        $("#select_area").html('<option value="-1">Please select your area.</option>');
+        $("#select_area").html('<option value="-1">地域を選択してください</option>');
         setSelectedAreaMasterName("");
         return;
       }
@@ -749,7 +751,7 @@ $(function() {
       if(checkAreaMasterName == checkAreaMasterNameBefore){
       }else{
         $("#accordion").html("");
-        $("#select_area").html('<option value="-1">Please select your area.。</option>');
+        $("#select_area").html('<option value="-1">地域を選択してください。</option>');
         setSelectedAreaName("");
       }
 
