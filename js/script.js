@@ -125,7 +125,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     
     if (this.dayCell[j].length == 1) {
     
-      result_text += "On " + wk + "s  ";
+      result_text += "On " + wk + "s&emsp;&emsp;";
       
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       
