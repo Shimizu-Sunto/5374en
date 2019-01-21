@@ -94,7 +94,9 @@ var TrashModel = function(_lable, _cell, remarks) {
 
   var result_text = "";
   var today = new Date();
-
+  
+  var wk;
+	
   for (var j in this.dayCell) {
   	
   	
