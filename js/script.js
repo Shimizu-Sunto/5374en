@@ -120,7 +120,6 @@ var TrashModel = function(_lable, _cell, remarks) {
     else if(this.dayCell[j] == "日"){
     	wk = "Sunday";
     }
-    else{}
     
     
     if (this.dayCell[j].length == 1) {
