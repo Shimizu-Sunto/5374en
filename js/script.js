@@ -781,7 +781,7 @@ $(function() {
             '<div class="accordion-group" id="accordion-group' + d_no + '">' +
             '<div class="accordion-heading">' +
             '<a class="accordion-toggle" style="height:' + accordion_height + 'px" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '">' +
-            '<div class="left-day">' + leftDayText + "(" + dateLabel + ")" + '</div>' +
+            '<div class="left-day">' + leftDayText + "&nbsp;(" + dateLabel + ")" + '</div>' +
             '<div class="accordion-table" >';
           if (ableSVG && SVGLabel) {
             accordionHTML += '<img src="' + description.styles + '" alt="' + description.label + '"  />';
