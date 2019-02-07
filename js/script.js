@@ -237,7 +237,7 @@ var TrashModel = function(_lable, _cell, remarks) {
 
   this.getDateLabel = function() {
     if ( this.mostRecent != null ) {
-      var result_text = this.mostRecent.getFullYear() + "/" + (1 + this.mostRecent.getMonth()) + "/" + this.mostRecent.getDate();
+      var result_text = "(" + this.mostRecent.getFullYear() + "/" + (1 + this.mostRecent.getMonth()) + "/" + this.mostRecent.getDate() + ")";
       return /*this.getRemark() + this.dayLabel + */" " + result_text;
     } else {
       return "";
