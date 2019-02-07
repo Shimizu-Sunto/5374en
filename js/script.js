@@ -584,7 +584,7 @@ $(function() {
         var area_master_select_form = $("#select_area_master");
         var select_master_html = "";
 
-        select_master_html += '<option value="-1">Please select a district</option>';
+        select_master_html += '<option value="-1">Please select your district</option>';
         for (var row_index in areaMasterModels) {
           var area_master_name = areaMasterModels[row_index].name;
           var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
