@@ -1,5 +1,5 @@
 type,name,notice,furigana
-,aluminum coated bag,,a
+PLASTIC GARBAGE,aluminum coated bag,,a
 PLASTIC GARBAGE,artificial flower (plastic),Put the paper in burnable garbage.,a
 PLASTIC GARBAGE,wrappers/ bags (silver lined),Limited to plastic.,b
 PLASTIC GARBAGE,bath mat,Cut one side to 50 cm or less.,b
@@ -18,12 +18,11 @@ PLASTIC GARBAGE,fan (made of plastic),,f
 PLASTIC GARBAGE,foaming polystyrene/ styrofoam,,f
 PLASTIC GARBAGE,hanger (plastic),Landfill waste when metal is attached.,h
 PLASTIC GARBAGE,medicine packaging,Put medicine in burnable garbage.,m
-PLASTIC GARBAGE,potty,To remove discard.,p
 PLASTIC GARBAGE,photo negative,,p
 PLASTIC GARBAGE,plastic bag,,p
 PLASTIC GARBAGE,planter,Less than 50 cm long.,p
 PLASTIC GARBAGE,plastic bottle (PET1),Wash it and remove the cap and label.,p
-PLASTIC GARBAGE,plastic tank,Limited to less than 18 liters.,p
+PLASTIC GARBAGE,plastic tank (water, kerosene, etc.),Limited to less than 18 liters.,p
 PLASTIC GARBAGE,plastic bag,Do not put in other plastic products.,p
 PLASTIC GARBAGE,plastic wrap,Remove as much dirt as possible.,p
 PLASTIC GARBAGE,plastic sheeting,Folded up. Cut up large pieces.,p
@@ -32,6 +31,7 @@ PLASTIC GARBAGE,seasoning container (plastic),Use up and wash the inside.,s
 PLASTIC GARBAGE,telephone card,,t
 PLASTIC GARBAGE,tray (foaming polystyrene),Remove foreign matter and remove as much dirt as possible.,t
 PLASTIC GARBAGE,tray (plastic),Remove foreign matter and remove as much dirt as possible.,t
+PLASTIC GARBAGE,training toilet,Remove foreign matter and remove as much dirt as possible.,t
 BURNABLE GARBAGE,absorbent cotton,,a
 BURNABLE GARBAGE,bamboo skewer,Break off the tip.,b
 BURNABLE GARBAGE,crayon,,c
@@ -71,11 +71,11 @@ RECYCLABLE GARBAGE,cap (metal),It is classified as metal (Item: other metal).,c
 RECYCLABLE GARBAGE,edible oil,"Transfer to PET bottles/ etc. Government office/ town community exchange center/ town district center/ to town branch JA branch.",e
 RECYCLABLE GARBAGE,enamel pot,It is classified as metal (Item: other metal).,e
 RECYCLABLE GARBAGE,frying pan,,f
-RECYCLABLE GARBAGE,gas table,Remove anything other than metal as much as possible.,g
-RECYCLABLE GARBAGE,hardware,It is classified as metal (Item: other metal).,h
+RECYCLABLE GARBAGE,gas stove,Remove anything other than metal as much as possible.,g
 RECYCLABLE GARBAGE,kettle,,k
 RECYCLABLE GARBAGE,bottle lid,It is classified as metal (Item: other metal).,l
 RECYCLABLE GARBAGE,magazine,It is classified as waste paper (Item: other paper).,m
+RECYCLABLE GARBAGE,metals items/ products,It is classified as metal (Item: other metal).,m
 RECYCLABLE GARBAGE,nail,Put it in a metal can with a lid.,n
 RECYCLABLE GARBAGE,newspaper,It is classified as waste paper (newspaper).,n
 RECYCLABLE GARBAGE,one bottle,Wash the inside with water and take the cap.,o
@@ -87,16 +87,15 @@ RECYCLABLE GARBAGE,spray can,Open a hole and let out gas. It is classified as me
 RECYCLABLE GARBAGE,seasoning and condiment bottles,Wash the inside lightly while emptying the contents and take off the cap.,s
 RECYCLABLE GARBAGE,traditional razor (metal),Put it in a metal can with a lid. It is classified as other metal.,t
 RECYCLABLE GARBAGE,wire,It is classified as metal (Item: other metal).,w
-UNBURNABLE GARBAGE,album,,a
 UNBURNABLE GARBAGE,aluminum foil,,a
 UNBURNABLE GARBAGE,alarm clock,Remove the batteries.,a
+UNBURNABLE GARBAGE,art supplies (paint/ pencils/ etc.),,a
 UNBURNABLE GARBAGE,bag,Limited to the size that can fit in the recommended town bag. The big ones are large-size garbage.,b
 UNBURNABLE GARBAGE,bag,,b
 UNBURNABLE GARBAGE,ball,Deflate.,b
 UNBURNABLE GARBAGE,broom,Big ones are large-size garbage.,b
 UNBURNABLE GARBAGE,ballpoint pen,,b
 UNBURNABLE GARBAGE,cap (Metal),It is classified as metal (Item: other metal).,c
-UNBURNABLE GARBAGE,coloring material,,c
 UNBURNABLE GARBAGE,cassette tape,,c
 UNBURNABLE GARBAGE,camera,,c
 UNBURNABLE GARBAGE,cosmetic tube,,c
@@ -107,7 +106,6 @@ UNBURNABLE GARBAGE,calculator,,c
 UNBURNABLE GARBAGE,cold insuling materials,,c
 UNBURNABLE GARBAGE,desiccant,,d
 UNBURNABLE GARBAGE,deodorizer,,d
-UNBURNABLE GARBAGE,disposable lighter,Please exhaust the gas.,d
 UNBURNABLE GARBAGE,doll,It is limited to the size that fits in the recommended town bag. ,d
 UNBURNABLE GARBAGE,electric razor,,e
 UNBURNABLE GARBAGE,flowerpot (unglazed),,f
@@ -125,10 +123,12 @@ UNBURNABLE GARBAGE,ink ribbon,,i
 UNBURNABLE GARBAGE,kitchen knife,"Please cover the edge and the sharp point with adhesive tape. and display "danger" on the bag.",k
 UNBURNABLE GARBAGE,leather,,l
 UNBURNABLE GARBAGE,leather shoes and sneakers,Remove as much dirt as possible.,l
-UNBURNABLE GARBAGE,LED or normal light,,L
+UNBURNABLE GARBAGE,LED or normal light,,l
+UNBURNABLE GARBAGE,lighter,Please exhaust the gas.,l
 UNBURNABLE GARBAGE,melodion,,m
 UNBURNABLE GARBAGE,mirror,"Broken pieces should be wrapped in a bag and on it "danger".,m
 UNBURNABLE GARBAGE,moth repellent,,m
+UNBURNABLE GARBAGE,photo album,,p
 UNBURNABLE GARBAGE,portable warming pad,,p
 UNBURNABLE GARBAGE,portable radio,,p
 UNBURNABLE GARBAGE,rubber product(s),,r
