@@ -140,7 +140,7 @@ var TrashModel = function(_lable, _cell, remarks) {
       	wkNum = "third ";
       }
       else if(this.dayCell[j].charAt(1) == "4"){
-      	wkNum = "four ";
+      	wkNum = "fourth ";
       }
       else if(this.dayCell[j].charAt(1) == "5"){
       	wkNum = "five ";
