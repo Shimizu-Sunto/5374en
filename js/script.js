@@ -772,7 +772,7 @@ $(function() {
             } else if (leftDay == 1) {
               leftDayText = "Tomorrow";
             } else {
-              leftDayText = leftDay + "&nbsp;days after";
+              leftDayText = "In&nbsp;" + leftDay + "&nbsp;days";
             }
 	  }
           styleHTML += '#accordion-group' + d_no + '{background-color:  ' + description.background + ';} ';
